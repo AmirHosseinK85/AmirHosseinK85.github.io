@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Vazir light";
-    src: url("../fonts/ttf/Vazirmatn-Light.ttf") format("truetype"),
-        url("../fonts/Vazirmatn-Light.woff2") format("woff2");
+    src: url("../Fonts/ttf/Vazirmatn-Light.ttf") format("truetype"),
+        url("../Fonts/Vazirmatn-Light.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Vazir Bold";
-    src: url("../fonts/ttf/Vazirmatn-Bold.ttf") format("truetype"),
-        url("../fonts/Vazirmatn-Bold.woff2") format("woff2");
+    src: url("../Fonts/ttf/Vazirmatn-Bold.ttf") format("truetype"),
+        url("../Fonts/Vazirmatn-Bold.woff2") format("woff2");
 }
 
 * {
@@ -18,7 +18,7 @@
 
 body {
     font-family: "Vazir Bold";
-    background-image: url('images/Background.jpg ');
+    background-image: url("images/Background.jpg ");
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -468,6 +468,7 @@ h2 {
     background-color: #0f172a;
     padding-bottom: 4rem;
     position: relative;
+    width: 100%;
 }
 
 .contact::before {
@@ -534,7 +535,7 @@ h2 {
     }
 }
 
-@media (max-width: 970px) {
+@media (max-width: 768px) {
     .header_img {
         background-image: none;
         
